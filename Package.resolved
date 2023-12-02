@@ -3,10 +3,10 @@
     {
       "identity" : "sqlite.swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "location" : "https://github.com/svetrancicik/SQLite.swift.git",
       "state" : {
-        "revision" : "7a2e3cd27de56f6d396e84f63beefd0267b55ccb",
-        "version" : "0.14.1"
+        "branch" : "master",
+        "revision" : "ee0fbce421dce7567f800d8b7913e8e9f6cf5bec"
       }
     }
   ],

@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -9,7 +9,8 @@ let package = Package(
     .iOS(.v12),
     .macOS(.v10_14),
     .tvOS(.v12),
-    .watchOS(.v5)
+    .watchOS(.v5),
+    .visionOS(.v1)
   ],
   products: [
     .library(name: "Apollo", targets: ["Apollo"]),
@@ -22,8 +23,9 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/stephencelis/SQLite.swift.git",
-      .upToNextMajor(from: "0.13.1")),
+        url: "https://github.com/svetrancicik/SQLite.swift.git",
+        branch: "master"
+    ),
   ],
   targets: [
     .target(
