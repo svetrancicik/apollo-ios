@@ -39,7 +39,7 @@ let package = Package(
   dependencies: [
     .package(
         url: "https://github.com/svetrancicik/SQLite.swift.git",
-        branch: "master"
+        branch: "ik-release0.14.1"
     )
   ],
   targets: [
